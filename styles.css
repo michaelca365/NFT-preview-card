@@ -1,0 +1,28 @@
+:root {
+    --primary-soft-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --secunday-very-dark-blue : hsl(217, 54%, 11%); /*(main BG) */
+    --secunday-very-dark-blue : hsl(216, 50%, 16%); /*(card BG) */
+    --secunday-very-dark-blue : hsl(215, 32%, 27%); /*(line) */
+    --secunday-White: hsl(0, 0%, 100%)
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
