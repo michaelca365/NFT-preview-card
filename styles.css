@@ -192,11 +192,15 @@ main .card-container {
 }
 
 .attribution {
+  width: 100%;
+  text-align: center;
+  color: var(--secunday-White);
   position: absolute;
   bottom: 0;
   font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 70%);
+  font-weight: 700;
 }
